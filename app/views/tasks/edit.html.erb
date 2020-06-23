@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>Edit Task</h1>
+  <%= simple_form_for(@task) do |f| %>
+  <%= f.input :title %>
+  <%= f.input :details %>
+  <%= f.input :completed %>
+
+  <%= f.submit "Update Task", class:"btn btn-primary" %>
+<% end %>
+
+
+</div>
