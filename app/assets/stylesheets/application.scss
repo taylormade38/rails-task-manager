@@ -19,3 +19,15 @@
 li {
   list-style: none;
 }
+
+h1 {
+  padding-top: 20px;
+}
+
+.buttons {
+  display: flex;
+}
+ a.btn.btn-info {
+  margin-right: 10px;
+  margin-left: 10px;
+ }
